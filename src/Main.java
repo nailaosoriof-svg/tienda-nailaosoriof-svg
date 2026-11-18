@@ -16,5 +16,7 @@ public class Main {
         }
 
         carrito.mostrarTicket();
+        System.out.printf("Con un 10 %% de descuento: %.2f €%n", carrito.totalConDescuento(10));
+
     }
 }
